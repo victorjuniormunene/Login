@@ -1,0 +1,42 @@
+
+<head>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class=" next">
+        <fieldset class="page">
+         <legend><h1>Booking servers</h1></legend>
+         <label> 3bedroom for ksh 2000 per day
+         <input type="radio" name="email" value="3bedroom">
+         </label><br>
+         <label> 2  bedroom for ksh 1500 per day
+         <input type="radio" name="" value="2bedroom">
+         </label><br>
+         <label> 1 bedroom for ksh 1000 per day
+         <input type="radio" name="" value="1bedroom">
+ 
+         </label><br>
+         
+         
+          
+          <a id="bookingbutton"  href="#"><button>book now</button></a>
+         <div id="confirmationmessage"style="display:none;">
+         <h1> booking is successful!!</h1>
+         <p><h3>>thanks for booking ... make your payment please</h3></p>
+         </div>
+         <script>
+           document.getElementById('bookingbutton').addEventListener('click',function(){
+             document.getElementById('confirmationmessage').style="block";
+           });
+         </script>
+      <div>
+        
+          <a  id ="paymentbutton" onclick="redirectToNextPage()" href="#"><button>pay now</button></a>
+          <script>
+            function redirectToNextPage(){
+              window.location.href='junior.html';
+            }
+          </script>
+        </div>
+         
+</body>

@@ -1,0 +1,59 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+
+<body>
+<header>
+<h1>welcome to king hotel !!..</h1><header>
+
+
+    <div class="book" >
+     
+    
+    
+
+
+<div class="input">
+      <label>Email
+      <input type="text" name="email" value="">
+      </label><br>
+      <label> username
+      <input type="text" name="text" value="">
+      </label><br>
+      
+      <label> password
+        <input type="password" name="password" value="">
+        <label> Remember Me:
+          <input class="check" type="checkbox" name="" value="">
+
+      </label>
+      <p><h2> Restart The Password</h2></p>
+      <button>Restart</button>
+      </div>
+      <a id="accountbutton" href="#"><button>Create Account</button></a>
+      <div id="confirmationmessage"style="display:none;">
+      <h1>accout Create successful!!</h1>
+      <p>thanks</p>
+      </div>
+      <script>
+        document.getElementById('accountbutton').addEventListener('click',function(){
+          document.getElementById('confirmationmessage').style="block";
+        });
+      </script>
+    
+      
+      <div class="loginbutton">
+        <a  id ="loginbutton" onclick="redirectToNextPage()" href="#"><button>log in</button></a>
+        <script>
+          function redirectToNextPage(){
+            window.location.href='victor.html';
+          }
+        </script>
+    </div  >
+      
+    
+    
+    </body>
+    </html>

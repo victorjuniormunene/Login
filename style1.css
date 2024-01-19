@@ -1,0 +1,260 @@
+.{
+padding:0;
+margin: 0;
+}
+body{
+    width: 100%;
+    background: url(Sam.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    z-index: 99;
+}
+.navbar{
+    height: 120px;
+    width: 23px;
+    margin: auto;
+
+}
+.icon{
+    width: 1200px;
+    float: right;
+    height: 70px;
+}
+.logo{
+    color:red;
+    font-family: 'Gill Sans';
+    font-size: 35px;
+    float: right;
+}
+
+.menu{
+    width: 400px; ;
+    float: left;
+    height: 70px;
+}
+
+    
+ul{
+    float: left;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-right: 27pt;
+    font-size: 14;
+}
+ul li a{
+    text-decoration-color: none;
+    color: green;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4,ease-in-out;
+}
+ul li a :hover{
+    color: red;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(153, 51, 68);
+    position: relative;
+}
+.par{
+    color: aqua;
+
+}
+.par.content{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing:1.2em ;
+    line-height: 30px;
+}
+.content h1{
+    font-size:  50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.search{
+    width: 200px;
+    float: right;
+
+    margin-right: 270px;
+    height: 40px;
+
+}
+.srch{
+    width: 300px; ;
+    height:40px ;
+    margin-top:0;
+    color: rgb(184, 184, 58);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px ;
+     float: left;
+    border: 1px solid rebeccapurple;
+}
+h2{
+    color: #e60838;
+    font-size: 12px;
+}
+.btn{
+    float: right;
+    height: 34px;
+    width: 100px;
+    color: blueviolet;
+    border: 1px solid red;
+    position: relative;
+    font-size: 13px;
+    background: #ff240f;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.imagine{
+    width: 100%;
+    
+    position: relative;
+}
+.image{
+    width: 100%;
+
+    position: absolute;
+    top: 100%;
+    bottom:100%;
+}
+
+    
+} H1{
+    width: 23px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+
+}
+.check{
+    width: 20px;
+    height: 12px;
+}
+
+.book{
+
+    display: flex;
+    width: 1000px;
+    background: transparent;
+    height: 700px;
+    border: transparent;
+    color: #d1203e;
+    font-size: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+junior{
+    background: #a07067;
+    width: 220px;
+    height: 23px;
+
+} 
+.html{
+    color: #e60838;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: auto;
+    position: relative;
+    line-height: 12px;
+    border: transparent;
+} 
+radio{
+    color: #e60838;
+}
+.next{
+    background: transparent;
+    width: 400px;
+    height: 100px;
+    border: transparent;
+
+} 
+button{
+    border-radius: 2px;
+    background: rgb(27, 26, 26);
+    font-size:23px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    cursor: pointer;
+    bottom: 0;
+    height: 60px;
+}
+button:hover{
+    color: antiquewhite;
+    opacity: 0.5sec;
+}
+.page{
+    color: rgb(238, 15, 63);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: auto;
+    position: relative;
+    line-height: 12px;
+    border: transparent;
+}
+input{
+    font-weight:  500;
+    position: relative;
+    height: 50px;
+    margin: 30px;
+    position: relative;
+    top: 0;
+}
+a{
+    display: flex;
+    position: relative;
+    bottom: 0;
+}
+.bookingbutton{
+    color:rgb(184, 184, 58) ;
+    bottom: 100%;
+    float: left;
+    display: flex;
+    width: 220px;
+    height: 23px;
+    cursor: pointer;
+
+}
+.paymentbutton{
+    color:rgb(184, 184, 58) ;
+    bottom: 100%;
+    float: left;
+    display: flex;
+    width: 220px;
+    height: 23px;
+    cursor: pointer;
+}
+.download{
+    background: #ff240f;
+    top: 100%;
+    float:left ;
+    display: flex;
+    width: 220px;
+    height: 23px;
+    cursor: pointer;
+    border: #ff240f solid;
+}
+
+
